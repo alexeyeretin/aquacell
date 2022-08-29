@@ -1,0 +1,35 @@
+.burger {
+  display: block;
+  height: 26px;
+  width: 30px;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: default;
+  left: 0;
+  top: 0;
+}
+
+
+.burger_item {
+  display: none;
+  height: 3px;
+  width: 100%;
+  background: var(--color-5);
+}
+
+.item1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.item2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.item3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+  width: 60%;
+}
