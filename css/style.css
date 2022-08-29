@@ -266,8 +266,8 @@ p {
 }
 
 .pct {
-	width: 280px;
-	height: 580px;
+	width: 100%;
+	height: 100%;
 	opacity: 0;
 }
 
@@ -710,6 +710,7 @@ p {
 	}
 
 	.pctin {
+		height: 300px;
 	}
 }
 
