@@ -676,6 +676,7 @@ p {
 		width: 100%;
 		height: 33.3333%;
 		margin-left: 0;
+		background: transparent;
 	}
 
 	.industries_text {
