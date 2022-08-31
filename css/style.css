@@ -148,7 +148,7 @@ p {
 	font-size: 25px;
 	margin-left: 5px;
 	color: #fff !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-weight: 400;
 }
 
@@ -435,6 +435,10 @@ p {
 
 .footer__phone {
 	font-size: 25px;
+}
+
+.number {
+	margin: 0;
 }
 
 .footer__item__last {
